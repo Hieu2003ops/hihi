@@ -1,10 +1,14 @@
-# MobileIE: Mobile Image Enhancement with HybridMixUNet and QAT
+# QATIE: Bridging the Training-Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement
 
 <div align="center">
   <a href="#"><strong>Paper</strong></a> |
   <a href="#"><strong>Dataset</strong></a> |
   <a href="#"><strong>Pretrained Models</strong></a>
 </div>
+
+This repository provides the official implementation of **QATIE (Quantization-Aware Image Enhancement)**. It features `HybridMixUNet`, a lightweight architecture designed for mobile deployment, supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite (FP32 & INT8). 
+
+The project is heavily optimized for evaluating performance (PSNR/SSIM) vs. efficiency (Latency/Model Size) on mobile devices using the DPED dataset.
 
 ## Highlights
 - **HybridMixUNet Architecture:** A lightweight and efficient architecture designed specifically for mobile image enhancement.
@@ -14,7 +18,7 @@
 
 ## News
 - **[2026/04]** The training, evaluation, and export code is officially released.
-- **[2026/04]** MobileIE project is initialized with DPED dataset support.
+- **[2026/04]** QATIE project is initialized with DPED dataset support.
 
 ## Requirements
 Python < 3.12
