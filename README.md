@@ -1,4 +1,4 @@
-# QATIE: Bridging the Training-Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement
+# Bridging the Training-Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement
 
 <div align="center">
   <a href="#"><strong>Paper</strong></a> |
@@ -6,7 +6,7 @@
   <a href="#"><strong>Pretrained Models</strong></a>
 </div>
 
-This repository provides the official implementation of **QATIE (Quantization-Aware Image Enhancement)**. It features `HybridMixUNet`, a lightweight architecture designed for mobile deployment, supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite (FP32 & INT8). 
+This repository provides the official implementation of **Bridging the Training–Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement**. It features `HybridMixUNet`, a lightweight architecture designed for mobile deployment, supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite (FP32 & INT8). 
 
 The project is heavily optimized for evaluating performance (PSNR/SSIM) vs. efficiency (Latency/Model Size) on mobile devices using the DPED dataset.
 
