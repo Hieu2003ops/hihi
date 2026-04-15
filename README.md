@@ -18,7 +18,7 @@ The project is heavily optimized for evaluating performance (PSNR/SSIM) vs. effi
 
 ## News
 - **[2026/04]** The official training, evaluation, and export code is published.
-- **[2026/04]** Our paper has been accepted.
+- **[2026/04]** Our paper has been accepted at CVPRW-2026.
 
 ## Requirements
 **Python < 3.12** (Required to prevent errors during the TFLite conversion process).
