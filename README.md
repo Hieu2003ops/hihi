@@ -6,12 +6,12 @@
   <a href="#"><strong>Pretrained Models</strong></a>
 </div>
 
-This repository provides the official implementation of **Bridging the Training–Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement**. It features `HybridMixUNet`, a lightweight architecture designed for mobile deployment, supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite (FP32 & INT8). 
+This repository provides the official implementation of **Bridging the Training–Deployment Gap: Gated Encoding and Multi-Scale Refinement for Efficient Quantization-Aware Image Enhancement**. It features `Gated Encoding and Multi-Scale Refinement Network`, a lightweight architecture designed for mobile deployment, supported by Quantization-Aware Training (QAT) and an end-to-end export pipeline to TFLite (FP32 & INT8). 
 
 The project is heavily optimized for evaluating performance (PSNR/SSIM) vs. efficiency (Latency/Model Size) on mobile devices using the DPED dataset.
 
 ## Highlights
-- **HybridMixUNet Architecture:** A lightweight and efficient architecture designed specifically for mobile image enhancement.
+- **Gated Encoding and Multi-Scale Refinement Architecture:** A lightweight and efficient architecture designed specifically for mobile image enhancement.
 - **Quantization-Aware Training (QAT):** End-to-end pipeline supporting FX Graph Mode QAT for optimal INT8 deployment without significant performance degradation.
 - **Seamless Deployment Pipeline:** Automated conversion from PyTorch to ONNX, TF SavedModel, and finally to TFLite (FP32 and INT8 PTQ).
 - **Comprehensive Benchmarking:** Built-in tools for measuring PSNR, SSIM, latency, and parameter count across PyTorch and TFLite formats.
