@@ -17,11 +17,11 @@ The project is heavily optimized for evaluating performance (PSNR/SSIM) vs. effi
 - **Comprehensive Benchmarking:** Built-in tools for measuring PSNR, SSIM, latency, and parameter count across PyTorch and TFLite formats.
 
 ## News
-- **[2026/04]** The training, evaluation, and export code is officially released.
-- **[2026/04]** QATIE project is initialized with DPED dataset support.
+- **[2026/04]** The official training, evaluation, and export code is published.
+- **[2026/04]** Our paper has been accepted.
 
 ## Requirements
-Python < 3.12
+**Python < 3.12** (Required to prevent errors during the TFLite conversion process).
 
 Install dependencies via `requirements.txt`:
 ```bash
