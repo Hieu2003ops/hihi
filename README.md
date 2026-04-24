@@ -14,7 +14,13 @@ The project is heavily optimized for evaluating performance (PSNR/SSIM) vs. effi
 - **Gated Encoding and Multi-Scale Refinement Architecture:** A lightweight and efficient architecture designed specifically for mobile image enhancement.
 - **Quantization-Aware Training (QAT):** End-to-end pipeline supporting FX Graph Mode QAT for optimal INT8 deployment without significant performance degradation.
 - **Seamless Deployment Pipeline:** Automated conversion from PyTorch to ONNX, TF SavedModel, and finally to TFLite (FP32 and INT8 PTQ).
-- **Comprehensive Benchmarking:** Built-in tools for measuring PSNR, SSIM, latency, and parameter count across PyTorch and TFLite formats.
+- **Comprehensive Benchmarking:** Built-in tools for measuring PSNR, SSIM, latency, and parameter count across PyTorch and TFLite formats
+
+<p align="center">
+  <img src="pipeline.png" width="900">
+  <br/>
+  <em>Figure 1: Overview of the Gated Encoding and Multi-Scale Refinement Network and deployment pipeline.</em>
+</p>
 
 ## News
 - **[2026/04]** The official training, evaluation, and export code is published.
